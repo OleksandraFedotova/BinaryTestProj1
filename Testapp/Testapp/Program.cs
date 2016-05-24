@@ -14,6 +14,11 @@ namespace AutoPark
             string a = Auto.GetInfo(car);
             Console.WriteLine(a);
         }
+
+        public static int ToDoCounting(int a, int b)
+        {
+            return a + b;
+        }
     }
 
     class Auto
