@@ -13,6 +13,10 @@ namespace AutoPark
             Auto car = new Auto(1223, "Ford", 1243581);
             string a = Auto.GetInfo(car);
             Console.WriteLine(a);
+			int a =Convert.Toint16(Console.ReadLine());
+			int b =Convert.Toint16(Console.ReadLine());
+			res=ToDoCounting(a,b);
+			  Console.WriteLine(res);
         }
 
         public static int ToDoCounting(int a, int b)
