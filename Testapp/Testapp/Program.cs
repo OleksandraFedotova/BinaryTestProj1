@@ -15,9 +15,9 @@ namespace AutoPark
             Console.WriteLine(a);
         }
 
-        public static int ToDoCounting(int a, int b)
+        public static int Minus(int a, int b)
         {
-            return a + b;
+            return a - b;
         }
     }
 
